@@ -1,0 +1,65 @@
+.analysis-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(220, 240, 255, 0.3); /* Medical light tint */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.card-header {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.badge {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.confidence-bar {
+  height: 0.75rem;
+  background-color: #e0e0e0;
+  border-radius: 9999px;
+}
+
+.confidence-progress {
+  height: 100%;
+  background: linear-gradient(to right, #4ade80, #22c55e);
+  border-radius: 9999px;
+  transition: width 0.5s ease;
+}
+
+.analysis-details {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.analysis-detail {
+  text-align: center;
+  padding: 1rem;
+}
+
+.button-medical {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
